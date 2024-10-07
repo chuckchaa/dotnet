@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.5.33516.290
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Maks.TaskPlanner.Domain.Logic", "Maks.TaskPlanner.Domain.Logic\Maks.TaskPlanner.Domain.Logic.csproj", "{4E5DAC7E-C3A8-4B6A-A22D-D5EE36C38326}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Mask.TaskPlanner.Domain.Models", "..\Mask.TaskPlanner.Domain.Models\Mask.TaskPlanner.Domain.Models\Mask.TaskPlanner.Domain.Models.csproj", "{DE1FE743-07DA-493D-80C4-B9BD9A55BABA}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{4E5DAC7E-C3A8-4B6A-A22D-D5EE36C38326}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4E5DAC7E-C3A8-4B6A-A22D-D5EE36C38326}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4E5DAC7E-C3A8-4B6A-A22D-D5EE36C38326}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4E5DAC7E-C3A8-4B6A-A22D-D5EE36C38326}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DE1FE743-07DA-493D-80C4-B9BD9A55BABA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DE1FE743-07DA-493D-80C4-B9BD9A55BABA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DE1FE743-07DA-493D-80C4-B9BD9A55BABA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DE1FE743-07DA-493D-80C4-B9BD9A55BABA}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {DB50815F-C486-48E6-A83F-90FE005714B7}
+	EndGlobalSection
+EndGlobal
