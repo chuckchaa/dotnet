@@ -1,4 +1,4 @@
-﻿<Project Sdk="Microsoft.NET.Sdk">
+<Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
     <TargetFramework>net6.0</TargetFramework>
@@ -7,8 +7,11 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <PackageReference Include="Newtonsoft.Json" Version="13.0.3" />
+  </ItemGroup>
+
+  <ItemGroup>
     <ProjectReference Include="..\..\Maks.TaskPlanner.DataAccess.Abstractions\Maks.TaskPlanner.DataAccess.Abstractions\Maks.TaskPlanner.DataAccess.Abstractions.csproj" />
-    <ProjectReference Include="..\..\Mask.TaskPlanner.Domain.Models\Mask.TaskPlanner.Domain.Models\Maks.TaskPlanner.Domain.Models.csproj" />
   </ItemGroup>
 
 </Project>

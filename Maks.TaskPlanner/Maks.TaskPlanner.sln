@@ -9,6 +9,12 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Maks.TaskPlanner.Domain.Mod
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Maks.TaskPlanner.Domain.Logic", "..\Maks.TaskPlanner.Domain.Logic\Maks.TaskPlanner.Domain.Logic\Maks.TaskPlanner.Domain.Logic.csproj", "{19E764D4-FBB3-48C4-B07E-D058574FD707}"
 EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Maks.TaskPlanner.DataAccess", "..\Maks.TaskPlanner.DataAccess\Maks.TaskPlanner.DataAccess\Maks.TaskPlanner.DataAccess.csproj", "{96D4FC2A-EBAB-483F-9F21-167E0103D942}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Maks.TaskPlanner.DataAccess.Abstractions", "..\Maks.TaskPlanner.DataAccess.Abstractions\Maks.TaskPlanner.DataAccess.Abstractions\Maks.TaskPlanner.DataAccess.Abstractions.csproj", "{0169C5C1-380C-4871-9F73-2B992D81FE89}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Maks.TaskPlanner.Domain.Logic.Tests", "Maks.TaskPlanner.Domain.Logic.Tests\Maks.TaskPlanner.Domain.Logic.Tests.csproj", "{B290245C-278A-468C-BB87-4965455DC0AA}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,6 +33,18 @@ Global
 		{19E764D4-FBB3-48C4-B07E-D058574FD707}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{19E764D4-FBB3-48C4-B07E-D058574FD707}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{19E764D4-FBB3-48C4-B07E-D058574FD707}.Release|Any CPU.Build.0 = Release|Any CPU
+		{96D4FC2A-EBAB-483F-9F21-167E0103D942}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{96D4FC2A-EBAB-483F-9F21-167E0103D942}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{96D4FC2A-EBAB-483F-9F21-167E0103D942}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{96D4FC2A-EBAB-483F-9F21-167E0103D942}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0169C5C1-380C-4871-9F73-2B992D81FE89}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0169C5C1-380C-4871-9F73-2B992D81FE89}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0169C5C1-380C-4871-9F73-2B992D81FE89}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0169C5C1-380C-4871-9F73-2B992D81FE89}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B290245C-278A-468C-BB87-4965455DC0AA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B290245C-278A-468C-BB87-4965455DC0AA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B290245C-278A-468C-BB87-4965455DC0AA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B290245C-278A-468C-BB87-4965455DC0AA}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
